@@ -1,0 +1,60 @@
+{
+  addplaylists: [
+    {
+      user_id: "1",
+      song_ids: [
+        "3"
+      ]
+    },
+    {
+      user_id: "4",
+      song_ids: [
+        "5",
+        "9",
+        "100"
+      ]
+    },
+    {
+      user_id: "5",
+      song_ids: [
+        "200",
+        "300"
+      ]
+    },
+    {
+      user_id: "8",
+      song_ids: [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  removeplaylists: [
+    {
+      id: "1"
+    },
+    {
+      id: "10"
+    }
+  ],
+  updateplaylists: [
+    {
+      id: "2",
+      song_ids: [
+        "31",
+        "32"
+      ]
+    },
+    {
+      id: "3",
+      song_ids: [
+        "31",
+        "32",
+        "12",
+        "13",
+        "100"
+      ]
+    }
+  ]
+}
