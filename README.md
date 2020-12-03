@@ -63,9 +63,9 @@ When the tool as CLI, it consumes two inputs, one the state (a combination of us
 
 The tool is therefore stateless and each time a change is needed, it has to rebuild the state and apply the change.
 
-If the tool can run as a service, then the state (or multiple states identified by a tag, if needed) can be kept in memory
+If the processor runs as a service, then the state (or multiple states identified by a tag, if needed) can be kept in memory
 and whenever a change needs to make, all it needs is the change file itself, no more state rebuild. Thus no more the state
 file (in this case, the mixtape) is needed to be re-processed.
 
-In more use scenarios, the change file is smaller than the state file and the process time shall be much lesser.
+In most use scenarios, the change file is smaller than the state file and the process time shall be much lesser.
 
