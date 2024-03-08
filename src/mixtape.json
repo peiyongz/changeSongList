@@ -259,6 +259,11 @@
       id: "40",
       artist: "Imagine Dragons",
       title: "Thunder"
+    },
+    {
+      id: "41",
+      artist: "Flying Dragons added by hotfix",
+      title: "BeeGees"
     }
   ]
 }
